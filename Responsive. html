@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="container">
+
+        <h1 class="logo">DECODELABS</h1>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <nav id="nav">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Responsive Web Design</h2>
+    <p>Mobile First, Clean UI, Flexible Layouts</p>
+</section>
+
+<!-- GRID -->
+<main class="grid container">
+
+    <div class="card">
+        <h3>📱 Mobile First</h3>
+        <p>Design starts from small screens.</p>
+    </div>
+
+    <div class="card">
+        <h3>⚡ Fast UI</h3>
+        <p>Optimized layouts for performance.</p>
+    </div>
+
+    <div class="card">
+        <h3>🎯 Responsive</h3>
+        <p>Adjusts automatically on all devices.</p>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 Responsive Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
